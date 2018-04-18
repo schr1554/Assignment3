@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: test.java.edu.uw.ajs.TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.107 sec <<< FAILURE! - in test.java.edu.uw.ajs.TestSuite
+testBrokerExchangeOpen(test.BrokerTest)  Time elapsed: 4.03 sec  <<< FAILURE!
+java.lang.AssertionError: StopSellOrders should be processed when the price drops below or meets the target price.
+	at test.BrokerTest.baseTest(BrokerTest.java:413)
+	at test.BrokerTest.testBrokerExchangeOpen(BrokerTest.java:389)
+
+testBrokerExchangeClosed(test.BrokerTest)  Time elapsed: 6.021 sec  <<< FAILURE!
+java.lang.AssertionError: StopSellOrders should be processed when the price drops below or meets the target price.
+	at test.BrokerTest.baseTest(BrokerTest.java:413)
+	at test.BrokerTest.testBrokerExchangeClosed(BrokerTest.java:348)
+
